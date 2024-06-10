@@ -1,0 +1,183 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#carrusel">IMAGENES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#accordionExample">PREGUNTAS FRECUENTES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#qwe">CONTACTO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#ads">INICIO DE SESION</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+
+      <div id="carrusel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/Galaxy-S24.jpg" class="img1" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/001-galaxy-zflip5.jpg" class="img2" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/GifNote10.gif" class="img3" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="contCard">
+        <div class="card">
+          <img src="imagenes/a55.jpg" class="timagen" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sansung a55</h5>
+            <p class="card-text">
+              El Samsung Galaxy A54 es un smartphone de gama media con pantalla Super AMOLED de 6,5 pulgadas y resolución Full HD+. Equipado con un procesador Exynos 1280, 6 GB de RAM y una cámara principal de 64 MP, ofrece buen rendimiento y versatilidad fotográfica. Su batería de 5000 mAh admite carga rápida de 25W y soporta conectividad 5</p>
+            <a href="https://shop.samsung.com/ar/celular-galaxy-a54-5g/p?skuId=137322" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagenes/flip.jpg" class="timagen" alt="...">
+          <div class="card-body2">
+            <h5 class="card-title">Sansung Flip z5</h5>
+            <p class="card-text">
+              El Samsung Galaxy Z Flip 5 es un smartphone plegable con pantalla AMOLED de 6,7 pulgadas y tecnología Dynamic AMOLED 2X. Equipado con un procesador Snapdragon 8 Gen 2, ofrece alto rendimiento y eficiencia energética. Su diseño compacto y elegante incluye una pantalla externa de 3,4 pulgadas para notificaciones.</p>
+            <a href="https://shop.samsung.com/ar/galaxy-z-flip5/p?skuId=137425" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagenes/s23.jpg" class="timagen" alt="...">
+          <div class="card-body3">
+            <h5 class="card-title">Sansung S23</h5>
+            <p class="card-text">
+              El Samsung S23 es un teléfono inteligente de gama media con pantalla de 6.4 pulgadas, cámara principal de 48 MP y batería de larga duración. Ofrece un rendimiento sólido para tareas diarias y una experiencia visual envolvente, siendo una opción atractiva para quienes buscan un equilibrio entre precio y funcionalidad.</p>
+            <a href="https://shop.samsung.com/ar/celular-galaxy-s23/p?skuId=136768" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagenes/ultra.jpg" class="timagen" alt="...">
+          <div class="card-body4">
+            <h5 class="card-title">Sansung S24 Ultra</h5>
+            <p class="card-text">
+              El Samsung Galaxy S24 Ultra es un teléfono inteligente de alta gama con características premium, como una pantalla OLED de alta resolución, un potente conjunto de cámaras con capacidades de zoom avanzado y un rendimiento de vanguardia gracias a su procesador de última generación. Ofrece una experiencia de usuario excepcional para aquellos que buscan lo último en tecnología móvil.</p>
+            <a href="https://shop.samsung.com/ar/galaxy-s24-ultra/p?skuId=137947" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>  
+      </div>
+      
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ¿Quienes somos?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Somos una pagina oficial de Sansung</strong> Nos encargamos de publicitar los nuevos modelos de sansung, subir las novedades y mantener informado al cliente.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ¿Somos confiables?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Sí</strong>, nos hacemos cargo de todos nuestros puestos en la pagina y todos los productos promocionados en la misma.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Como funciona?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Usted puede seleccionar entre la variedad de productos que se ofrece y darle al boton azul de "comprar" para ser redirigido a la tienda oficial de sansung
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              ¿son originales?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Sí</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="red">
+        <div class="conta">
+          <div class="body-card" id="qwe">
+            <h5 class="card1">Redes sociales y contacto</h5>
+            <p class="card-text">
+              Instagram</p>
+            <a href="https://www.instagram.com/samsungargentina/?hl=es" class="btn btn-primary">Ir</a>
+            <p class="card1">
+              X</p>
+            <a href="https://x.com/samsungarg?lang=es&mx=2" class="btn btn-primary">Ir</a>
+            <p class="card1">
+              Correo</p>
+            <a href="https://www.google.com/intl/es-419/gmail/about/" class="btn btn-primary">Fabeccarini@escuelasproa.edu.ar</a>
+            <p class="card1">
+              Numero de telefono de soporte</p>
+            <a href="" class="btn btn-primary">0800 555 7864</a>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+    <footer>
+      <form>
+        <div class="sesion" id="ads">
+          <label for="exampleInputEmail1" class="form-label">Direecion de correo</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">No compartiremos esta informacion a nadie mas.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

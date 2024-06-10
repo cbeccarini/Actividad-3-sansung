@@ -1,0 +1,92 @@
+.card{
+    width: 18rem;
+    height: 40rem;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contCard{
+    display: flex;
+}
+
+.timagen{
+    width: 200px;
+    height: 200px;
+}
+
+.card-img-top{
+    width: 100px;
+}
+
+.carousel{
+    background-color: rgb(231, 229, 229);
+    height: 400px;
+}
+
+.carousel-control-prev{
+    background-color: black;
+}
+
+.carousel-control-next{
+    background-color: black;
+}
+
+.img1{
+    width: 712px;
+    margin-left: 300px;
+}
+
+.img2{
+    width: 710px;
+    height: 400px;
+    margin-left: 310px;
+}
+
+.card{
+    border: 1px solid black;
+}
+
+.card-body{
+    margin-top: 2.5%;
+}
+
+.img3{
+    width: 710px;
+    height: 400px;
+    margin-left: 350px;
+}
+
+.carousel-item{
+    width: 100px;
+}
+
+.card2{
+    margin-top: -150px;
+    margin-left: 300px;
+    border: 1px solid black;
+}
+.card-body2{
+    margin-top: 2.5%;
+}
+
+.card3{
+    margin-top: -575px;
+    margin-left: 600px;
+    border: 1px solid black;
+}
+
+.card4{
+    margin-top: -520px;
+    margin-left: 900px;
+    border: 1px solid black;
+}
+
+.body-card{
+    display:flex;
+    margin-top: 20px;
+}
+
+.card1{
+    margin-right: 50px;
+}
